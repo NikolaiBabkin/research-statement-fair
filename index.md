@@ -10,7 +10,7 @@ In the Hedge Fund I mastered my skills in advocating my research, not giving up 
  
 With time passed I realized how important for me to collaborate with colleagues, having a debate and being able to share ideas. But unfortunately, all of this is not common practice in that industry. Also, I wanted to have a wider range of data to research. So, I moved to the Sberbank Modelling Research team.
 
-In Sberbank my main research interest was related to Graph ML. One of the projects was Graph NN with the idea of predicting the probability of clients default by using not only personal clients purchases but information about their transfers. A huge (about 60M nodes) discrete-time dynamic social graph was built with bank clients as graph nodes and edges for clients with mutual transfers. The node attribute was the client’s purchases, edge attribute was the client's transfers. Combining ideas from GAT [[1]](#1) and EGNN [2], an architecture was proposed that used node and edge features; it outperformed both GAT and EGNN. This architecture shows the best result in end-to-end training mode and the result significantly outperformed the existed probability of the default model.
+In Sberbank my main research interest was related to Graph ML. One of the projects was Graph NN with the idea of predicting the probability of clients default by using not only personal clients purchases but information about their transfers. A huge (about 60M nodes) discrete-time dynamic social graph was built with bank clients as graph nodes and edges for clients with mutual transfers. The node attribute was the client’s purchases, edge attribute was the client's transfers. Combining ideas from GAT [[1]](#1) and EGNN [[2]](#2), an architecture was proposed that used node and edge features; it outperformed both GAT and EGNN. This architecture shows the best result in end-to-end training mode and the result significantly outperformed the existed probability of the default model.
 
 Another project was to do semi-supervised clustering of Russian Economy. Russian companies were presented as a heterogeneous (knowledge) graph with more than 40 types of connections. Working on this project I had a chance to research in-depth graph embedding techniques. The general pipeline was first of all to extract graph nodes embeddings, then to cluster them. I used several approaches to extract embeddings from the heterogeneous graph. For embeddings in Euclidean space I used slightly modified ideas from DeepWalk [3] of Node2Vec [4]. I was admired by Maximilian Nickel and Douwe Kiela’s idea [5] to put embeddings to Poincare space. Also, I used ComplEx and TransE algorithms implemented in PyTorchBigGraph [6]. Thank you, Facebook Research team, for adding GPU training support for this library! I suffered from training it on the CPU. For extracted embeddings clustering I used dimension reduction if required, and then HDBSCAN [7] clustering algorithm.
  
@@ -30,7 +30,8 @@ I am looking forward to seeing soon the same breakthrough in Graph ML as was in 
 <a id="1">[1]</a> 
 [Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, & Yoshua Bengio. (2018). Graph Attention Networks.](https://arxiv.org/abs/1710.10903)
 
-[2] Liyu Gong and Qiang Cheng. 2018. Exploiting Edge Features for Graph Neural Networks.
+<a id="2">[2]</a> 
+[Liyu Gong, & Qiang Cheng. (2019). Exploiting Edge Features in Graph Neural Networks.](https://arxiv.org/abs/1809.02709)
 
 [3] Aditya Grover and Jure Leskovec. 2016. node2vec: Scalable feature learning for networks.
 
