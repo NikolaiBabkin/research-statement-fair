@@ -25,8 +25,7 @@ I am looking forward to seeing soon the same breakthrough in Graph ML as was in 
  
  
  
-[1] Petar Velickovic, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, and Yoshua Bengio. 2018. Graph Attention Networks.
-
+[1] [Petar Veličković, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, & Yoshua Bengio. (2018). Graph Attention Networks.](https://arxiv.org/abs/1710.10903)
 [2] Liyu Gong and Qiang Cheng. 2018. Exploiting Edge Features for Graph Neural Networks.
 
 [3] Aditya Grover and Jure Leskovec. 2016. node2vec: Scalable feature learning for networks.
