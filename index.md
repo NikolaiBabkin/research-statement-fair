@@ -26,13 +26,22 @@ I am looking forward to seeing soon the same breakthrough in Graph ML as was in 
  
  
 [1] Petar Velickovic, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, and Yoshua Bengio. 2018. Graph Attention Networks.
+
 [2] Liyu Gong and Qiang Cheng. 2018. Exploiting Edge Features for Graph Neural Networks.
+
 [3] Aditya Grover and Jure Leskovec. 2016. node2vec: Scalable feature learning for networks.
+
 [4] Bryan Perozzi, Rami Al-Rfou, and Steven Skiena. Deepwalk: Online learning of social representations.
+
 [5] Nickel, M. and Kiela, D. (2017). Poincare embeddings ´ for learning hierarchical representations.
+
 [6] Adam Lerer, Ledell Wu, Jiajun Shen, Timothee Lacroix, Luca Wehrstedt, Abhijit Bose, and Alex Peysakhovich. Pytorch-biggraph: A large-scale graph embedding system.
+
 [7] Campello R.J.G.B., Moulavi D., Sander J. (2013) Density-Based Clustering Based on Hierarchical Density Estimates.
+
 [8] M. Noorshams, S. Verma, and A. Hofleitner, TIES: Temporal Interaction Embeddings for enhancing social media integrity at Facebook (2020).
+
 [9] Giorgos Bouritsas, Fabrizio Frasca, Stefanos Zafeiriou, and Michael M Bronstein. Improving graph neural network expressivity via subgraph isomorphism counting
+
 [10] Qian Huang, Horace He, Abhay Singh, Ser-Nam Lim, and Austin R Benson. Combining label propagation and simple models out-performs graph neural networks.
 
